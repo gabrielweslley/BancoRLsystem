@@ -19,7 +19,7 @@ public class Imc30
 		// inicio dos calculos
 		imc= peso / (altura * altura);
 		//mostrando o resultado do IMC na tela
-		JOptionPane.showMessageDialog(null, " seu IMC e de : " +imc);
+		JOptionPane.showMessageDialog(null, " seu IMC e de  : " +imc);
 		//calculo situacoes tabela imc
 		if (imc < 17)
 		{
